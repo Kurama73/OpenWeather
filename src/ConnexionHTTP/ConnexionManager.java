@@ -9,8 +9,8 @@ package ConnexionHTTP;
  */
 public class ConnexionManager {
     
-    public static final String URL_Weather = "https://api.openweathermap.org/data/2.5/weather?q=lyon,fr&units=metric&lang=fr&appid=1656a11bc417893574e66e881597e092";
-    public static final String URL_Polution = "https://api.openweathermap.org/data/2.5/air_pollution/forecast?lat=46.0398&lon=5.4133&units=metric&lang=fr&appid=1656a11bc417893574e66e881597e092";
+    public static final String URL_Weather = "https://api.openweathermap.org/data/2.5/weather?q=lyon,fr&units=metric&lang=fr&appid=xxxxx";
+    public static final String URL_Polution = "https://api.openweathermap.org/data/2.5/air_pollution/forecast?lat=46.0398&lon=5.4133&units=metric&lang=fr&appid=xxxxx";
     private static ConnexionManager manager = null;
     private final Callback callWeather;
     private final Callback callPolution;
